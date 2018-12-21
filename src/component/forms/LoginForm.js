@@ -28,6 +28,13 @@ class LoginForm extends React.Component {
                     onChange={this.onChange}
                     ></input>
                 </Form.Field>
+                <Form.Field>
+                    <label htmlFor="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="password" value={data.password}
+                    value ={data.password}
+                    onChange={this.onChange}
+                    ></input>
+                </Form.Field>
 
                 <Button primary>
                     Login
